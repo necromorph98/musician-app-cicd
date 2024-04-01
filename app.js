@@ -5,7 +5,6 @@ const initialStoreData = require('./store/data');
 const Musician = require('./models/musician');
 const musicianRoutes = require('./routes/musician');
 
-// Test String
 const app = express();
 const port = 8080;
 
