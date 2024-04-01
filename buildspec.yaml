@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+  pre_build:
+    commands:
+      - npm install -g nodemon
+  build:
+    commands:
+      - echo "Build commands are not needed for this installation"
+  post_build:
+    commands:
+      - echo "Installation completed successfully"
