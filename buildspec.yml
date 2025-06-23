@@ -13,3 +13,8 @@ phases:
   post_build:
     commands:
       - echo "Installation completed successfully"
+
+artifacts:
+  files:
+    - '**/*'
+  name: BuildOp
